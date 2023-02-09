@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather WebApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="https://kit.fontawesome.com/f6b356be29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="error">
+        <i class="fa-regular fa-face-sad-tear"></i>
+        Error: Please check your input!
+    </div>
+
+    <div class="outer-head">Weather Forcast</div>
+    <div class="main-container">
+        <form action="">
+            <input id="city-name" type="text" placeholder="Search for City" value="" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="loading-container">
+            <div class="loading">
+                <div class="loader">
+                    <div></div>
+                
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="inner-container">
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
